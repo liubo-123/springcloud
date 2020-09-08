@@ -1,0 +1,55 @@
+09:11:10.286 [main] INFO  com.example.demo.ProviderApplication - No active profile set, falling back to default profiles: default
+09:11:12.822 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+09:11:15.375 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-2223"]
+09:11:15.376 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:11:15.378 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+09:11:15.890 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:11:16.603 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+09:11:16.769 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:11:17.757 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:11:18.347 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+09:11:18.347 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:11:18.364 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+09:11:18.365 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:11:28.069 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+09:11:28.473 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+09:11:28.473 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+09:11:29.068 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+09:11:29.069 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+09:11:29.755 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:11:32.575 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+09:11:32.576 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+09:11:32.576 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+09:11:32.576 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+09:11:32.576 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+09:11:32.577 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+09:11:32.577 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+09:11:33.271 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+09:11:33.276 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+09:11:33.282 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+09:11:33.294 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1596071493289 with initial instances count: 4
+09:11:33.299 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1596071493299, current=UP, previous=STARTING]
+09:11:33.381 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLIENT-SERVERA/client-serverA:DESKTOP-6FGI4ES:2223: registering service...
+09:11:33.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-2223"]
+09:11:33.905 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CLIENT-SERVERA/client-serverA:DESKTOP-6FGI4ES:2223 - registration status: 204
+09:11:37.181 [main] INFO  com.example.demo.ProviderApplication - Started ProviderApplication in 36.025 seconds (JVM running for 43.486)
+09:12:09.178 [http-nio-2223-exec-10] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:12:09.821 [http-nio-2223-exec-10] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==>  Preparing: select password from user_name where username=? and password=?
+09:12:10.129 [http-nio-2223-exec-10] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==> Parameters: null, null
+09:12:10.130 [http-nio-2223-exec-9] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==>  Preparing: select password from user_name where username=? and password=?
+09:12:10.131 [http-nio-2223-exec-9] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==> Parameters: null, null
+09:12:10.186 [http-nio-2223-exec-9] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - <==      Total: 0
+09:12:10.188 [http-nio-2223-exec-9] INFO  com.example.demo.service.ProviderSeviceImpl - serviceimo;=====null
+09:12:10.189 [http-nio-2223-exec-9] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==>  Preparing: select password from user_name where username=? and password=?
+09:12:10.189 [http-nio-2223-exec-9] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==> Parameters: null, null
+09:12:10.190 [http-nio-2223-exec-9] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - <==      Total: 0
+09:12:10.193 [http-nio-2223-exec-9] INFO  com.example.demo.controller.ProviderController - user===========null
+09:12:10.203 [http-nio-2223-exec-10] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - <==      Total: 0
+09:12:10.204 [http-nio-2223-exec-10] INFO  com.example.demo.service.ProviderSeviceImpl - serviceimo;=====null
+09:12:10.204 [http-nio-2223-exec-10] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==>  Preparing: select password from user_name where username=? and password=?
+09:12:10.204 [http-nio-2223-exec-10] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - ==> Parameters: null, null
+09:12:10.205 [http-nio-2223-exec-10] DEBUG com.example.demo.mapper.UserMapper.findUserByNameAndPwd - <==      Total: 0
+09:12:10.206 [http-nio-2223-exec-10] INFO  com.example.demo.controller.ProviderController - user===========null
+09:16:32.579 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:21:32.582 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:26:32.584 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
